@@ -1,0 +1,5 @@
+E:\Bot Branches\LINQ_Demo3\LINQ_Demo5\LINQ_Demo5\bin\Debug\LINQ_Demo5.exe.config
+E:\Bot Branches\LINQ_Demo3\LINQ_Demo5\LINQ_Demo5\bin\Debug\LINQ_Demo5.exe
+E:\Bot Branches\LINQ_Demo3\LINQ_Demo5\LINQ_Demo5\bin\Debug\LINQ_Demo5.pdb
+E:\Bot Branches\LINQ_Demo3\LINQ_Demo5\LINQ_Demo5\obj\x86\Debug\LINQ_Demo5.exe
+E:\Bot Branches\LINQ_Demo3\LINQ_Demo5\LINQ_Demo5\obj\x86\Debug\LINQ_Demo5.pdb

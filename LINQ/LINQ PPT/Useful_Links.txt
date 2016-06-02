@@ -1,0 +1,24 @@
+https://www.youtube.com/watch?v=8o0O-vBS8W0
+http://haroldrv.com/2015/02/what-is-the-difference-between-ienumerable-and-iqueryable/
+http://stackoverflow.com/questions/17448812/practical-difference-between-list-and-ienumerable
+
+
+http://www.tutorialspoint.com/linq/
+http://www.dotnetfunda.com/interviews/cat/110/linq
+
+http://www.slideshare.net/AnandRaj5/understanding-linq-13726724
+http://www.slideshare.net/samneang/linq-8852203
+
+http://www.slideshare.net/YuriySeniuk/expression-trees
+http://www.slideshare.net/salubaba/expression-trees-44345197
+https://msdn.microsoft.com/en-us/library/mt654263.aspx
+
+https://www.youtube.com/watch?v=zGug_IYlNts
+
+https://blogs.msdn.microsoft.com/charlie/2008/01/31/expression-tree-basics/
+
+delegate is a pointer to function
+
+it is a reference variable that holds reference of a method
+
+LINQ to SQL uses expression tree

@@ -1,0 +1,165 @@
+﻿USE [master]
+GO
+
+/****** Object:  Database [LINQ_Demo]    Script Date: 05/31/2016 11:24:12 ******/
+CREATE DATABASE [LINQ_Demo] ON  PRIMARY 
+( NAME = N'LINQ_Demo', FILENAME = N'c:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA\LINQ_Demo.mdf' , SIZE = 3072KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
+ LOG ON 
+( NAME = N'LINQ_Demo_log', FILENAME = N'c:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA\LINQ_Demo_log.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
+GO
+
+ALTER DATABASE [LINQ_Demo] SET COMPATIBILITY_LEVEL = 100
+GO
+
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [LINQ_Demo].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+
+ALTER DATABASE [LINQ_Demo] SET ANSI_NULL_DEFAULT OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET ANSI_NULLS OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET ANSI_PADDING OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET ANSI_WARNINGS OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET ARITHABORT OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET AUTO_CLOSE OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET AUTO_CREATE_STATISTICS ON 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET AUTO_SHRINK OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET AUTO_UPDATE_STATISTICS ON 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET CURSOR_DEFAULT  GLOBAL 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET NUMERIC_ROUNDABORT OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET QUOTED_IDENTIFIER OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET RECURSIVE_TRIGGERS OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET  DISABLE_BROKER 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET TRUSTWORTHY OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET PARAMETERIZATION SIMPLE 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET HONOR_BROKER_PRIORITY OFF 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET  READ_WRITE 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET RECOVERY SIMPLE 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET  MULTI_USER 
+GO
+
+ALTER DATABASE [LINQ_Demo] SET PAGE_VERIFY CHECKSUM  
+GO
+
+ALTER DATABASE [LINQ_Demo] SET DB_CHAINING OFF 
+GO
+
+
+USE [LINQ_Demo]
+GO
+
+/****** Object:  Table [dbo].[Employees]    Script Date: 05/31/2016 11:24:36 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Employees](
+	[Id] [tinyint] NULL,
+	[Name] [nvarchar](50) NULL,
+	[Place] [nvarchar](50) NULL
+) ON [PRIMARY]
+
+GO
+
+INSERT INTO [LINQ_Demo].[dbo].[Employees]  ([Id], [Name], [Place])
+     VALUES (1, 'Ashwini', 'Hyderabad')
+GO
+
+INSERT INTO [LINQ_Demo].[dbo].[Employees]  ([Id], [Name], [Place])
+     VALUES (2, 'Rakesh', 'Hyderabad')
+GO
+
+INSERT INTO [LINQ_Demo].[dbo].[Employees]  ([Id], [Name], [Place])
+     VALUES (3, 'Babul', 'Hyderabad')
+GO
+
+INSERT INTO [LINQ_Demo].[dbo].[Employees]  ([Id], [Name], [Place])
+     VALUES (4, 'Kalyan', 'Hyderabad')
+GO
+
+INSERT INTO [LINQ_Demo].[dbo].[Employees]  ([Id], [Name], [Place])
+     VALUES (5, 'Jayaram', 'Hyderabad')
+GO
+
+INSERT INTO [LINQ_Demo].[dbo].[Employees]  ([Id], [Name], [Place])
+     VALUES (6, 'Samyuktha', 'Hyderabad')
+GO
+
+INSERT INTO [LINQ_Demo].[dbo].[Employees]  ([Id], [Name], [Place])
+     VALUES (7, 'Mit', 'Gujarat')
+GO
+
+INSERT INTO [LINQ_Demo].[dbo].[Employees]  ([Id], [Name], [Place])
+     VALUES (8, 'Prashant', 'Roorki')
+GO
+
+INSERT INTO [LINQ_Demo].[dbo].[Employees]  ([Id], [Name], [Place])
+     VALUES (9, 'Ravi', 'Bihar')
+GO
+
+INSERT INTO [LINQ_Demo].[dbo].[Employees]  ([Id], [Name], [Place])
+     VALUES (10, 'Kannan', 'Chennai')
+GO
+
+
+
+
