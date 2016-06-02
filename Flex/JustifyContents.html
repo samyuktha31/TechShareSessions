@@ -1,0 +1,51 @@
+
+
+<div class="flex-container">
+  <div class="flex-item"> Item 1</div>
+  <div class="flex-item"> Item 2</div>
+  <div class="flex-item"> Item 3</div>  
+  <div class="flex-item"> Item 4</div>  
+  <div class="flex-item"> Item 5</div>  
+  
+</div>
+
+
+
+
+<style>
+.flex-container {
+    display: flex;
+    width: 1400px;
+    height: 450px;
+    background-color: lightgrey;
+    color: white;
+  
+    justify-content: flex-start;
+    //justify-content: flex-end;
+    //justify-content: center;
+    //justify-content: space-between;
+    //justify-content: space-around;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+.flex-item:nth-child(1){
+    background-color: darkred;
+  
+}
+.flex-item:nth-child(2){
+    background-color: midnightblue;
+}
+.flex-item:nth-child(3){
+    background-color: teal;
+}
+.flex-item:nth-child(4){
+    background-color: black;
+}
+
+</style>

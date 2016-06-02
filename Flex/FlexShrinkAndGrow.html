@@ -1,0 +1,37 @@
+
+<div class="flex-container">
+  <div class="flex-item"> Item 1</div>
+  <div class="flex-item"> Item 2</div>
+</div>
+
+
+
+
+
+
+
+<style>
+    
+.flex-container {
+    display: flex;
+    width: 40%;
+    background-color: lightgrey;
+    color: white;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+}
+
+.flex-item:nth-child(1){
+    background-color: darkred;
+    flex: 1 1 10em;
+}
+.flex-item:nth-child(2){
+    background-color: midnightblue;
+    flex: 2 2 10em;
+}
+
+
+
+</style>

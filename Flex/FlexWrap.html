@@ -1,0 +1,50 @@
+
+<div class="flex-container">
+  <div class="flex-item"> Item 1</div>
+  <div class="flex-item"> Item 2</div>
+  <div class="flex-item"> Item 3</div>  
+  <div class="flex-item"> Item 4</div>  
+  <div class="flex-item"> Item 5</div> 
+  <div class="flex-item"> Item 1</div>
+  <div class="flex-item"> Item 2</div>
+  <div class="flex-item"> Item 3</div>  
+  <div class="flex-item"> Item 4</div>  
+  <div class="flex-item"> Item 5</div> 
+</div>
+
+<style>
+
+.flex-container {
+    display: flex;
+    width: 1000px;
+    height: 450px;
+    background-color: lightgrey;
+    color: white;
+    flex-direction: row;
+    
+    //flex-wrap: wrap;
+    //flex-wrap: nowrap;
+    //flex-wrap: wrap-reverse;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.flex-item:nth-child(1){
+    background-color: darkred;
+  
+}
+.flex-item:nth-child(2){
+    background-color: midnightblue;
+}
+.flex-item:nth-child(3){
+    background-color: teal;
+}
+.flex-item:nth-child(4){
+    background-color: black;
+}
+</style>
