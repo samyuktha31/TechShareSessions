@@ -1,4 +1,0 @@
-E:\Bot Branches\LINQ_Demo2\Delegates\Delegates\bin\Debug\Delegates.exe
-E:\Bot Branches\LINQ_Demo2\Delegates\Delegates\bin\Debug\Delegates.pdb
-E:\Bot Branches\LINQ_Demo2\Delegates\Delegates\obj\x86\Debug\Delegates.exe
-E:\Bot Branches\LINQ_Demo2\Delegates\Delegates\obj\x86\Debug\Delegates.pdb
