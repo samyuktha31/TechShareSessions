@@ -1,0 +1,4 @@
+E:\Lab\TechnologySessions\101.Singleton\bin\Debug\101.Singleton.exe
+E:\Lab\TechnologySessions\101.Singleton\bin\Debug\101.Singleton.pdb
+E:\Lab\TechnologySessions\101.Singleton\obj\x86\Debug\101.Singleton.exe
+E:\Lab\TechnologySessions\101.Singleton\obj\x86\Debug\101.Singleton.pdb

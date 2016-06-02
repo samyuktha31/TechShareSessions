@@ -1,0 +1,5 @@
+E:\Lab\TechnologySessions\100.Singleton\bin\Debug\100.Singleton.exe
+E:\Lab\TechnologySessions\100.Singleton\bin\Debug\100.Singleton.pdb
+E:\Lab\TechnologySessions\100.Singleton\obj\x86\Debug\100.Singleton.csprojResolveAssemblyReference.cache
+E:\Lab\TechnologySessions\100.Singleton\obj\x86\Debug\100.Singleton.exe
+E:\Lab\TechnologySessions\100.Singleton\obj\x86\Debug\100.Singleton.pdb
