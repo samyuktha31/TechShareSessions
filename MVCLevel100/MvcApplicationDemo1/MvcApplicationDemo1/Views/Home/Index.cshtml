@@ -1,0 +1,12 @@
+﻿@using System.Drawing.Printing
+@{
+    ViewBag.Title = "Countries List";
+}
+
+<h2>Countries List</h2>
+@*(List<string>ViewData["Countries"])*@
+@foreach (string country in ViewBag.Countries)
+{
+    <li>@country</li>
+}
+
